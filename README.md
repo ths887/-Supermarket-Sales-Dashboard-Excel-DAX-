@@ -7,9 +7,9 @@ This project combines **Power Pivot**, **DAX formulas**, and **Excel interactivi
 
 ## 📊 Dashboard Overview
 
-![Supermarket Sales Dashboard](https://raw.githubusercontent.com/<your-username>/<your-repo-name>/main/images/supermarket_sales_dashboard.png)
+![Supermarket Sales Dashboard](https://github.com/ths887/-Supermarket-Sales-Dashboard-Excel-DAX-/blob/main/SuperMarket%20Sales%20Dashboard-Image.png?raw=true)
 
-> *(Replace the above link with your actual GitHub image URL after uploading your screenshot.)*
+
 
 ---
 
@@ -43,7 +43,8 @@ This dashboard empowers retail and supermarket managers to:
 |----------------|----------|
 | **Microsoft Excel** | Dashboard creation & interactivity |
 | **Power Pivot** | Data modeling & relationships |
-| **DAX (Data Analysis Expressions)** | KPI calculations |
+| **DAX (Data Analysis Expressions)** | KPI calculations (Sales, Profit, Profit %) |
+| **OFFSET & IF Functions** | Dynamic range and conditional logic |
 | **Pivot Tables & Charts** | Sales and profit analysis |
 | **Tick Boxes (Form Controls)** | Dynamic monthly sales check |
 | **Conditional Formatting** | Visual emphasis on key metrics |
@@ -52,7 +53,6 @@ This dashboard empowers retail and supermarket managers to:
 
 ## 🧮 Example DAX Measures Used
 
-```DAX
 Total Sales = SUM(Sales[SalesAmount])
 
 Total Profit = SUM(Sales[Profit])
